@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page layout */
+body {
+    background-image: url(../ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Login container */
+#login-section {
+  background: #fff;
+  padding: 30px 35px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Title */
+#login-section h1 {
+    font-size:90px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Form */
+#loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+#loginForm label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* Inputs */
+#loginForm input[type="text"],
+#loginForm input[type="password"] {
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+#loginForm input[type="text"]:focus,
+#loginForm input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button */
+#loginForm button {
+  padding: 12px 0;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#loginForm button:hover {
+  background-color: green;
+}
+
+/* Login message */
+#loginMessage {
+  margin-top: 15px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+}
+
+#loginMessage.success {
+  color: #27ae60;
+}
+
+#loginMessage.error {
+  color: #c0392b;
+}

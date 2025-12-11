@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef2f7;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Hero {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 380px;
+}
+
+#list {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+/* Form layout */
+form#close > div {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+form#close label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* Inputs */
+form#close input[type="text"],
+form#close input[type="password"] {
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+form#close input[type="text"]:focus,
+form#close input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Password rules list */
+#passwordRules {
+  list-style: none;
+  padding-left: 0;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #666;
+}
+
+#passwordRules li {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #c0392b; /* default red for unmet rules */
+  font-weight: 600;
+}
+
+/* When password rules are met, you can dynamically change this with JS by toggling classes */
+#passwordRules li.valid {
+  color: #27ae60; /* green for met rules */
+}
+
+/* Confirm message */
+#confirmMessage {
+  color: #c0392b;
+  font-size: 12px;
+  margin-top: 4px;
+  min-height: 18px;
+  font-weight: 600;
+}
+
+/* Submit button */
+#submit {
+  text-align: center;
+}
+
+#submit button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit button:hover {
+  background-color: green;
+}
+
+/* Registration message */
+#registerMessage {
+  margin-top: 20px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 16px;
+  min-height: 24px;
+}
+
+#registerMessage.error {
+  color: #c0392b;
+}
+
+#registerMessage.success {
+  color: #27ae60;
+}
+
+#again{
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
